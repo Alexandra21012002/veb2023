@@ -128,20 +128,22 @@ function deepEqual(firstObject, secondObject) {
     if (Object.is(firstObject, secondObject)) {
         return true;
     } else if (Array.isArray(firstObject) && Array.isArray(secondObject)) {
+        if (firstObject.length !== secondObject.length) return false;
         for (let i = 0; i < firstObject.length; i++) {
-            if (firstObject[i] !== secondObject[i]) return false;
+            console.log(firstObject[i], secondObject[i]);
+            if (!deepEqual(firstObject[i], secondObject[i])) return false;
         }
         return true;
     } else if (
         typeof firstObject === 'object' &&
         typeof secondObject === 'object'
     ) {
-        let key1 = Object.getOwnPropertyNames(firstObject);
-        let key2 = Object.getOwnPropertyNames(secondObject);
-        if (key1.length !== key2.length) return false;
-        for (let i = 0; i < key1.length; i++) {
-            let k = key1[i];
-            if (!deepEqual(firstObject[k], secondObject[k])) return false;
+        let keys1 = Object.getOwnPropertyNames(firstObject);
+        let keys2 = Object.getOwnPropertyNames(secondObject);
+        if (keys1.length !== keys2.length) return false;
+        for (let i = 0; i < keys1.length; i++) {
+            let key = keys1[i];
+            if (!deepEqual(firstObject[key], secondObject[key])) return false;
         }
         return true;
     } else return firstObject === secondObject;
