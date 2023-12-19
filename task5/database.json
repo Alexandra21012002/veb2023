@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "name": "Миньоны",
+      "url": "https://catherineasquithgallery.com/uploads/posts/2021-03/1614552729_83-p-kartinki-na-belom-fone-prikolnie-98.jpg",
+      "description": "Сочные ребятки",
+      "code": "1",
+      "provider": "Мультик",
+      "id": "5922b3f9ca14f"
+    },
+    {
+      "name": "The gitara",
+      "url": "https://acousticguitar.com/wp-content/uploads/2020/09/guild-guitar-giveaway-free-guitar.jpg",
+      "description": "Можно побрынчать",
+      "code": "2",
+      "provider": "Друг по общаге",
+      "id": "bb79717ea1afd"
+    },
+    {
+      "id": "7342612233a54",
+      "name": "Четырка",
+      "url": "https://hdpic.club/uploads/posts/2021-10/1635238783_23-hdpic-club-p-chetirka-mashina-28.jpg",
+      "description": "Четырка с развалом",
+      "code": 3,
+      "provider": "Кто-то"
+    },
+    {
+      "id": "eed36a4dd03c2",
+      "name": "Бананчик",
+      "url": "https://i.pinimg.com/originals/6a/bf/a9/6abfa90bd5ff616b000dfe8a8a3ceb55.jpg",
+      "description": "добрый малый",
+      "code": 4,
+      "provider": "Губернский рынок"
+    },
+    {
+      "name": "Срирача",
+      "url": "https://vietshop.ru/images/product/l/133a178e.jpg",
+      "description": "Чтоб попка горела///\n",
+      "code": "5",
+      "provider": "Магаз",
+      "id": "4b66e1ed222f3"
+    }
+  ],
+  "creatorInfo": {
+    "name": "Сергеева Александра",
+    "group": "6409"
+  }
+}
