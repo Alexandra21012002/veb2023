@@ -1,0 +1,12 @@
+.app {
+  font-size: 16px;
+}
+
+p {
+  font-family: "Inter";
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
