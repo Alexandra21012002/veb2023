@@ -1,0 +1,27 @@
+.transition(@property: all, @duration: 0.3s, @delay: 0s, @ease: ease-in-out) {
+  transition+: @arguments;
+}
+
+.loader {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 80px;
+  height: 80px;
+  margin: 30px auto;
+  border-radius: 50%;
+  border: 8px solid transparent;
+  border-top-color: var(--primary);
+  animation: loader-spin 1.5s linear infinite;
+}
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
