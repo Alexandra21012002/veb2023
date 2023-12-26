@@ -1,0 +1,11 @@
+.star-icon {
+	fill: none;
+	stroke: currentColor;
+	transition: fill 0.3s;
+	/* Добавим анимацию для плавного изменения цвета */
+}
+
+/* Стили для закрашенной звездочки */
+.star-icon.filled {
+	fill: yellow;
+}
